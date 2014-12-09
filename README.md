@@ -2,6 +2,8 @@
 
 A small Lua library to detect devices.
 
+[![Build Status](https://travis-ci.org/frozenminds/lua_device_detect.svg)](https://travis-ci.org/frozenminds/lua_device_detect)
+
 ### Insipiration
 This library is inspired by Scott Francis's [mobile_detect](https://github.com/csfrancis/mobile_detect) and Piwik's [device_detector](https://github.com/piwik/device-detector).
 The rules are from Piwik as they're impeccable, I've just transformed them from YAML to JSON.
