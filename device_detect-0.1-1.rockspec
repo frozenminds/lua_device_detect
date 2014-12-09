@@ -1,12 +1,12 @@
 package = "device_detect"
 version = "0.1-1"
 source = {
-  url = "https://github.com/frozenminds/lua-device-detect/archive/master.zip",
+  url = "https://github.com/frozenminds/lua_device_detect/archive/master.zip",
   tag="0.1"
 }
 description = {
   summary = "Device detection library",
-  homepage = "https://github.com/frozenminds/lua-device-detect",
+  homepage = "https://github.com/frozenminds/lua_device_detect",
   license = "LGPL",
   maintainer = "Constantin Bejenaru <boby@frozenminds.com>"
 }
