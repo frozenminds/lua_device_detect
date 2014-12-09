@@ -5,20 +5,26 @@ A small Lua library to detect devices.
 [![Build Status](https://travis-ci.org/frozenminds/lua_device_detect.svg)](https://travis-ci.org/frozenminds/lua_device_detect)
 
 ### Insipiration
+
 This library is inspired by Scott Francis's [mobile_detect](https://github.com/csfrancis/mobile_detect) and Piwik's [device_detector](https://github.com/piwik/device-detector).
 The rules are from Piwik as they're impeccable, I've just transformed them from YAML to JSON.
 
 ### Installation
+
+Download source or clone the Git repository, ```cd``` into directory and install via [LuaRocks](http://luarocks.org/) 
 ```
-luarocks install device_detect
+luarocks make
 ```
 
 ### Dependencies
+
 * [Lua](http://www.lua.org/) >= 5.1 | [Luajit](http://luajit.org/) >= 2.0.0
+* [LuaRocks](http://luarocks.org/)
 * [lua-cjson](http://www.kyne.com.au/~mark/software/lua-cjson.php)
 * [Lrexlib-PCRE](http://rrthomas.github.io/lrexlib/)
 
 ### Usage
+
 All APIs take a table of HTTP headers as an input parameter.
 
 ```
@@ -49,3 +55,4 @@ sudo luarocks install busted
 busted tests/device_detect_test.lua
 busted tests/device_detect_definitions_test.lua
 ```
+
